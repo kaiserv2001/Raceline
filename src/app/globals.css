@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Fonts */
+  --font-condensed: "Barlow Condensed", sans-serif;
+
+  /* Apex Grid color tokens */
+  --color-carbon-black: #0A0A0F;
+  --color-panel-dark: #0F0F14;
+  --color-panel-border: #1E1E2A;
+  --color-off-white: #E8E8E0;
+  --color-muted: #666680;
+  --color-accent-red: #E8001C;
+  --color-accent-cyan: #00D2FF;
+  --color-warning-yellow: #FFD000;
+  --color-sector-purple: #CC00FF;
+  --color-wet-blue: #0055FF;
+  --color-green-improve: #00CC44;
+}
+
+:root {
+  --background: #0A0A0F;
+  --foreground: #E8E8E0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
